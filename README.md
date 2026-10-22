@@ -16,6 +16,12 @@ $ cd komprese
 $ wget https://www.edumach.cz/files/teploty.txt
 ```
 
+Pokud by vám z nějakého důvodu soubor nešel stáhnout, zkopírujte si ho z mého home adresáře:
+
+```
+$ cp -p /home/machac/teploty.txt ~/komprese
+```
+
 Pro každou metodu zaznamenejte:
 1. **Délku trvání komprese** (reálný čas z výstupu příkazu time):
     ```
